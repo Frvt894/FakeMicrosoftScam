@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#chat-container {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    position: relative;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+#messages {
+    flex-grow: 1;
+    overflow-y: auto;
+    border-bottom: 1px solid #ddd;
+    padding: 5px;
+}
+
+#message-input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+#typing-status {
+    font-style: italic;
+    color: #666;
+    padding: 5px;
+}
